@@ -1,3 +1,44 @@
+# Como executar os desafios
+
+## Instalação
+
+Antes de executar o projeto, instale as dependências com:
+
+```
+npm i
+```
+
+## Testando os desafios
+
+Cada desafio possui um arquivo de entrada que o programa utiliza para realizar a leitura dos dados.
+
+Para testar, coloque o arquivo de entrada na mesma pasta do arquivo `.ts` do desafio correspondente.
+
+Exemplo:
+
+```
+desafios
+├── desafio-2
+│   ├── desafio-2.ts
+│   └── cidades.txt
+```
+
+O programa irá ler automaticamente o arquivo que está na mesma pasta do desafio.
+
+Depois execute o projeto com:
+
+```
+npm run start
+```
+
+ou:
+
+```
+ts-node main.ts
+```
+
+Escolha o desafio no menu e aguarde o resultado no terminal.
+
 # Instruções e premissas
 
 - O código desenvolvido deve ser escrito totalmente pelo candidato; a cópia de código da internet
@@ -5,6 +46,7 @@
 - Os critérios de avaliação das soluções são, em ordem: corretude,
   clareza, velocidade de execução, e uso de memória.
  
+
 
 # Desafios
 
