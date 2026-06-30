@@ -43,9 +43,7 @@ export default function desafio1() {
 
     }
     console.log("===================================");
-    console.log(
-        `O CEP ${cepBusca} pertence à cidade: ${cidadeEncontrada}`
-    );
+    console.log(`O CEP ${cepBusca} pertence à cidade: ${cidadeEncontrada}`);
     console.log("==================================\n");
 
 }
